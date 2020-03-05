@@ -1,6 +1,5 @@
 import React from "react";
-import rigoImage from "../../img/rigo-baby.jpg";
-import "../../styles/home.scss";
+import { Link } from "react-router-dom";
 
 export const Home = () => (
 	<div className="text-center mt-5">
@@ -10,9 +9,12 @@ export const Home = () => (
 		</h1>
 		{/* <p>
 			<img src={rigoImage} />
-		</p> */}
-		<a href="#" className="btn btn-light">
+        </p> */}
+		<Link to="/">
+			<button className="btn btn-light">Join Today!</button>
+		</Link>
+		{/* <a href="#" className="btn btn-light">
 			Join Today!
-		</a>
+		</a> */}
 	</div>
 );
