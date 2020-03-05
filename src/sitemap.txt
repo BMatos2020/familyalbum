@@ -1,0 +1,44 @@
+Family Album Site Map
+
+Homepage
+	Visitor Navbar - - - Sign In button
+	Welcome Message  
+	CTA - Join Now
+
+Sign Up Screen
+	Form
+		First and Last Name
+		Email address
+		Password 
+		Confirm Password
+		Sign Up button
+
+Sign In Screen
+	Form
+		Email
+		Password
+		Remember Me
+		Sign In
+
+Welcome User Page
+	Sample Album
+	Add Album 
+
+Album
+	Title
+	Description
+	Photo Card
+	Add photo
+	Share
+	Edit
+	Delete
+
+Photo Detail
+	Photo
+	Time Stamp
+	Caption
+	Share
+	Edit
+	Delete
+	
+
