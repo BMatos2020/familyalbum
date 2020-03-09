@@ -19,17 +19,28 @@ export function SignUpForm() {
 					</small>
 				</div>
 				<div className="form-group">
+					<label>First Name</label>
+					<input type="text" className="form-control" id="exampleName" placeholder="Enter your first name" />
+				</div>
+				<div className="form-group">
 					<label>Password</label>
 					<input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password" />
 				</div>
-				<div className="form-check">
-					<input type="checkbox" className="form-check-input" id="exampleCheck1" />
-					<label>Remember me</label>
+				<div className="form-group">
+					<label>Confirm Password</label>
+					<input
+						type="password"
+						className="form-control"
+						id="exampleInputPassword1"
+						placeholder="Confirm password"
+					/>
 				</div>
 				<div>
-					<button type="submit" className="btn btn-primary">
-						Sign in
-					</button>
+					<Link to="/welcome">
+						<button type="submit" className="btn btn-primary">
+							Create my account
+						</button>
+					</Link>
 				</div>
 			</form>
 		</div>

@@ -27,9 +27,11 @@ export function SignInForm() {
 					<label>Remember me</label>
 				</div>
 				<div>
-					<button type="submit" className="btn btn-primary">
-						Sign in
-					</button>
+					<Link to="/welcome">
+						<button type="submit" className="btn btn-primary">
+							Sign in
+						</button>
+					</Link>
 				</div>
 			</form>
 		</div>
