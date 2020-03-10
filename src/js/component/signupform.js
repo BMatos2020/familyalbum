@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Modal } from "./welcomemodal";
 
 export function SignUpForm() {
 	return (
@@ -37,9 +38,14 @@ export function SignUpForm() {
 				</div>
 				<div>
 					<Link to="/welcome">
-						<button type="submit" className="btn btn-primary">
-							Create my account
-						</button>
+						{/* <!-- Button trigger modal --> */}
+						{/* <button
+							type="button"
+							className="btn btn-primary"
+							data-toggle="modal"
+							data-target="#staticBackdrop">
+							Create my account!
+						</button> */}
 					</Link>
 				</div>
 			</form>
