@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { Modal } from "./welcomemodal";
+import { welcomeModal } from "./welcomemodal";
 // import PropTypes from "prop-types";
 
 export function SignUpForm() {
-	const [modal, setModal] = useState("");
+	const [modal, setModal] = useState({});
+
 	return (
 		<div>
 			<form>
@@ -46,7 +47,7 @@ export function SignUpForm() {
 						className="btn btn-primary"
 						data-toggle="modal"
 						data-target="#staticBackdrop"
-						onClick={() => setModal(<Link to="welcome" />)}>
+						onClick={() => setModal()}>
 						Create my account!
 					</button>
 					{/* </Link> */}

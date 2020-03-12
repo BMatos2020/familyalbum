@@ -6,6 +6,7 @@ import { Home } from "./views/home";
 import { SignIn } from "./views/signIn";
 import { SignUp } from "./views/join";
 import { Welcome } from "./views/welcome";
+import { welcomeModal } from "../js/component/welcomemodal";
 // import { Demo } from "./views/demo";
 // import { Single } from "./views/single";
 import injectContext from "./store/appContext";
@@ -29,6 +30,7 @@ export const Layout = () => {
 						<Route path="/signIn" component={SignIn} />
 						<Route path="/join" component={SignUp} />
 						<Route path="/welcome" component={Welcome} />
+						<Route path="/welcomemodal" component={welcomeModal} />
 						<Route render={() => <h1>Not found!</h1>} />
 					</Switch>
 					<Footer />

@@ -2,7 +2,7 @@ import React, { useSate, useEffect } from "react";
 import { Link } from "react-router-dom";
 // import PropTypes from "prop-types";
 
-export function Modal() {
+export function welcomeModal() {
 	// const [state, setState] = useState({
 	// });
 	return (
