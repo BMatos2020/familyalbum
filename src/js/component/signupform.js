@@ -39,10 +39,10 @@ export function SignUpForm() {
 						placeholder="Confirm password"
 					/>
 				</div>
-				<div>
-					{/* <Link to="/welcome"> */}
+				{/* <div>
+					<Link to="/welcome">
 					{/* <!-- Button trigger modal --> */}
-					<button
+				{/* <button
 						type="button"
 						className="btn btn-primary"
 						data-toggle="modal"
@@ -50,8 +50,8 @@ export function SignUpForm() {
 						onClick={() => setModal()}>
 						Create my account!
 					</button>
-					{/* </Link> */}
-				</div>
+					</Link>
+				</div> */}
 			</form>
 		</div>
 	);
