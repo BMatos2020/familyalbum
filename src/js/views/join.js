@@ -8,7 +8,6 @@ export function SignUp() {
 		<div className="container">
 			<h1>Get Started</h1>
 			<SignUpForm />
-			<br />
 		</div>
 	);
 }

@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Modal } from "./welcomemodal";
+// import PropTypes from "prop-types";
 
 export function SignUpForm() {
+	const [modal, setModal] = useState("");
 	return (
 		<div>
 			<form>
@@ -37,18 +39,23 @@ export function SignUpForm() {
 					/>
 				</div>
 				<div>
-					<Link to="/welcome">
-						{/* <!-- Button trigger modal --> */}
-						{/* <button
-							type="button"
-							className="btn btn-primary"
-							data-toggle="modal"
-							data-target="#staticBackdrop">
-							Create my account!
-						</button> */}
-					</Link>
+					{/* <Link to="/welcome"> */}
+					{/* <!-- Button trigger modal --> */}
+					<button
+						type="button"
+						className="btn btn-primary"
+						data-toggle="modal"
+						data-target="#staticBackdrop"
+						onClick={() => setModal(<Link to="welcome" />)}>
+						Create my account!
+					</button>
+					{/* </Link> */}
 				</div>
 			</form>
 		</div>
 	);
 }
+
+// Modal.propTypes = {
+//     onPress: PropTypes.string,
+// };

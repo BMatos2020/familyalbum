@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useSate, useEffect } from "react";
 import { Link } from "react-router-dom";
+// import PropTypes from "prop-types";
 
 export function Modal() {
+	// const [state, setState] = useState({
+	// });
 	return (
 		// <!-- Modal -->
 		<div
@@ -43,3 +46,7 @@ export function Modal() {
 		</div>
 	);
 }
+
+// Modal.propTypes = {
+//     onPress: PropTypes.string,
+// };
